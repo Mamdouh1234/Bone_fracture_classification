@@ -10,9 +10,9 @@ This bone fracture classification system can be integrated into existing hospita
 
 By leveraging advanced machine learning techniques and a sophisticated convolutional neural network (CNN) architecture, this project seeks to develop a robust and reliable model for bone fracture detection. This AI system will provide significant support in:
 
-Reducing diagnostic errors: Acting as a second pair of eyes for radiologists, the system helps catch fractures that might be missed during hectic shifts or by less experienced practitioners.
-Expediting treatment decisions: Rapid and accurate fracture detection enables quicker treatment initiation, improving patient outcomes.
-Enhancing healthcare accessibility: In rural or under-resourced settings, where access to expert radiologists is limited, the AI system can provide essential diagnostic support.
+- Reducing diagnostic errors: Acting as a second pair of eyes for radiologists, the system helps catch fractures that might be missed during hectic shifts or by less experienced practitioners.
+- Expediting treatment decisions: Rapid and accurate fracture detection enables quicker treatment initiation, improving patient outcomes.
+- Enhancing healthcare accessibility: In rural or under-resourced settings, where access to expert radiologists is limited, the AI system can provide essential diagnostic support.
 Welcome to the future of medical diagnostics, where technology and healthcare unite to enhance patient care and streamline medical processes. Let's dive into the development of this groundbreaking bone fracture image classification model.
 
 ## Dataset
