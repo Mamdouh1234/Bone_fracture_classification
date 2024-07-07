@@ -18,6 +18,7 @@ Welcome to the future of medical diagnostics, where technology and healthcare un
 ## Dataset
 The dataset used in this project is Mura Dataset by Stanford university , it contains 40,561 images of fractured and unfractured body bones , 
 more about the dataset can be found  [here](https://stanfordmlgroup.github.io/competitions/mura/).
+Mura dataset was streamed in this project using Deeplake.
 
 ## Model Architecture
 The model used for this project is Resnet18(tested Resnet50 and Resnet101 , and achieved same results):
