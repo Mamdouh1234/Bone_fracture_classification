@@ -16,26 +16,19 @@ By leveraging advanced machine learning techniques and a sophisticated convoluti
 Welcome to the future of medical diagnostics, where technology and healthcare unite to enhance patient care and streamline medical processes. Let's dive into the development of this groundbreaking bone fracture image classification model.
 
 ## Dataset
-The dataset used in this project is sourced from Kaggle and created by Madushani Rodrigo. It contains images categorized into two classes:
-
-Fractured bones
-Unfractured bones
-You can find the dataset [here](https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data/data).
+The dataset used in this project is Mura Dataset by Stanford university , it contains 40,561 images of fractured and unfractured body bones , 
+more about the dataset can be found  [here](https://stanfordmlgroup.github.io/competitions/mura/).
 
 ## Model Architecture
-The model is a convolutional neural network (CNN) designed for image classification. The architecture includes:
+The model used for this project is Resnet18(tested Resnet50 and Resnet101 , and achieved same results):
 
-Convolutional layers with ReLU activation
-Max-pooling layers
-Fully connected (dense) layers
-Dropout layers to prevent overfitting
 
 ## Training
 The model is trained using the Adam optimizer and CrossEntropyLoss. The learning rate is adjusted dynamically using a scheduler. The training process includes:
 
-Loading the training, validation, and test sets
+Loading the training & validation sets
 Data augmentation for the training set
-Training over a specified number of epochs
+Training over 25 epoch.
 Evaluation on the validation set after each epoch
 
 ## Evaluation
@@ -44,7 +37,7 @@ The model is evaluated using accuracy and loss metrics on both the validation an
 ## Results
 The final model achieved the following performance:
 
-Train Accuracy: 99.87%
-Validation Accuracy: 97.95%
-Test Accuracy: 98.02%
+Train Accuracy: 83.92%
+Validation Accuracy: 79.08%
+
 These results demonstrate the model's effectiveness in classifying bone fractures.
