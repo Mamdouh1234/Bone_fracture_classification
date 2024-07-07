@@ -41,3 +41,6 @@ Train Accuracy: 83.92%
 Validation Accuracy: 79.08%
 
 These results demonstrate the model's effectiveness in classifying bone fractures.
+
+## Deployment
+Model is Deoloyed on hugging face , check it [here](https://huggingface.co/spaces/Mamdouh-Alaa12/Bone-Fracture-Image-Classification)
