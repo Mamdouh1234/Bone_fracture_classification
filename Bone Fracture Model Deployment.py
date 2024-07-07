@@ -1,15 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[11]:
 import torch
 from torchvision import datasets, transforms, models
 import torch.nn as nn
 import gradio as gr
 from PIL import Image
-
-
-# In[4]:
 
 
 # Load your model architecture and weights
@@ -24,9 +18,6 @@ model.fc = nn.Linear(num_ftrs, 2)
 
 model.load_state_dict(torch.load('model.pth' , map_location=torch.device('cpu')))
 model.eval()
-
-
-# In[6]:
 
 
 # Define the transformations
@@ -47,10 +38,6 @@ def predict(image):
     return "Fractured" if predicted.item() == 1 else "Not Fractured"
 
 
-# In[17]:
-
-
-
 iface = gr.Interface(
     fn=predict,
     inputs=gr.Image(type='numpy'),
@@ -63,7 +50,7 @@ iface = gr.Interface(
 iface.launch(share=True)
 
 
-# In[ ]:
+
 
 
 
